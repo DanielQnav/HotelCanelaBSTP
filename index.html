@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!--<link rel="stylesheet" href="asset/estilos.css">-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Hotel Canela</title>
@@ -17,29 +18,33 @@
         li :hover{
             color: blue;            
         }
+        
+      
+
     </style>  
 </head>
 <body>
-<div class="container-fluid">
+<div class="container-fluid"  style="background-image: url(asset/Fondo1.jpg);
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
 
   <!--Encabezado y navegador-->
     <header class="row">
-        <div class="col-12 col-md-12 col-sm-12 text-center " style="background-image: url(asset/fondo.jpg); background-size: cover;">
+        <div class="col-12 col-md-12 col-sm-12 text-center " style="background-image: url(asset/Fondo1.jpg);">
             <h1>Hotel Canela</h1>
             <p>Bienvenidos a Hotel Canela, un espacio para relajarse y desconectarse</p>
         </div>
    
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="color:white">Hotel Canela</a>
+          <a class="navbar-brand" href="#">Hotel Canela</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#"style="color:white">Inicio</a>
-              <a class="nav-link" href="#"style="color:white">Pagina 1</a>
-              <a class="nav-link" href="#"style="color:white">Pagina 2</a>
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="#">Pagina 1</a>
+              <a class="nav-link" href="#">Pagina 2</a>
             </div>
           </div>
         </div>
@@ -98,17 +103,18 @@
               <ul class="list-group">
                 <h3>Algunos Links</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, impedit?</p>
-                <a href="#" ><li class="list-group-item">Enlace 1</li></a>
-                <a href="#"><li class="list-group-item">Enlace 2</li></a>
-                <a href="#"><li class="list-group-item">Enlace 3</li></a>
-                <a href="#"><li class="list-group-item">Enlace 4</li></a>
+                <a href="#" ><li class="list-group-item" style="background-color: transparent;">Enlace 1</li></a>
+                <a href="#"><li class="list-group-item"style="background-color: transparent;">Enlace 2</li></a>
+                <a href="#"><li class="list-group-item"style="background-color: transparent;">Enlace 3</li></a>
+                <a href="#"><li class="list-group-item"style="background-color: transparent;">Enlace 4</li></a>
               </ul>
         </aside>
 
         <!--parte derecha de la pagina-->
             <aside class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">                  
-                <h3>Titulo de la cabecera 1</h3>
-                <p>descripcion 20/09/2021</p>
+                <h3>Suite Presidencial</h3>
+                <p>Máximo confort, con la mejor atención</p>
+                <p>20/02/2021</p>
                     <img class=" w-100"src="asset/hb2.jpg" alt="hb2">
                         <p>Nuestra suit principal</p><br>
                         <p class="justify-content-center">
@@ -122,8 +128,9 @@
                         atque velit dolore sunt iste sed!</p>
 
           <!--Parte inferior derecha de la pagina-->
-                <h3>Titulo de la cabecera 2</h3>
-                <p>Descripcion 99/99/99</p>
+                <h3 class="p-1">Piscinas y esparcimiento</h3>
+                <p>Grandes espacios, desconexión total.</p>
+                <p>20/02/2021</p>
                     <img class=" w-100" src="asset/hotel4.jpg" alt="h4">
                         <p>Espacio recreativo</p><br>
                         <p class="justify-content-center">
@@ -135,12 +142,12 @@
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, excepturi.
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, amet.</p>
                         
-                </div>
+
             </aside>
     </section>
     
     <!--Pie de página-->
-    <footer class="row justify-content-center bg-dark p-3 text-center">
+    <footer class="row justify-content-center  p-3 text-center">
        <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-2 col-sm-4 col-4">
         <a name="contacto" href="https://api.whatsapp.com/send?phone=56912345678" target="_blank">
         <img class="w-25" src="asset/005-whatsapp.png" alt="wsp" type="png/imagen"><br>
@@ -159,13 +166,14 @@
              Hotel Canela </a><br>
         </div>
 
-        <div class="col-12 p-1 text-white">
+        <div class="col-12 p-1 text-black-50">
 
             <p>&copy; DNQN Todos los derechos reservados</p>
 
         </div>
     </footer>
-</div>
+  </div> 
+
 
 <!--Jquery de Js-->
 <script src="js/bootstrap.js"></script>    
